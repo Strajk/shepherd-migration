@@ -1,0 +1,12 @@
+id: 2020-08-08-eslint-extensionless-to-js
+title: Rename all .eslintrc files to .eslintrc.js
+adapter:
+  type: github
+  search_query: user:Strajk path:/ filename:.eslintrc
+hooks:
+  should_migrate:
+    - ls .eslintrc
+  apply:
+    - mv .eslintrc .eslintrc.js
+  pr_message:
+    - echo "Rename all .eslintrc files to .eslintrc.js"

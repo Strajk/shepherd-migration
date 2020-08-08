@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "shepherd-migration",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "checkout": "shepherd checkout .",
+    "apply": "shepherd apply .",
+    "open-finder": "open ~/.shepherd",
+    "open-webstorm": "webstorm ~/.shepherd",
+    "commit": "shepherd commit .",
+    "push": "shepherd push .",
+    "pr": "shepherd pr ."
+  },
+  "keywords": [],
+  "author": "Pavel 'Strajk' Dolecek <strajk@me.com> (https://www.strajk.me/)",
+  "license": "ISC",
+  "dependencies": {
+    "@nerdwallet/shepherd": "^1.9.3"
+  }
+}
