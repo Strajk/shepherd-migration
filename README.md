@@ -10,3 +10,7 @@ See [shepherd.yml](./shepherd.yml) for rules.
 * Run `(npm run)` `commit`
 * Run `(npm run)` `push`
 * Run `(npm run)` `pr`
+
+Examples
+- https://github.com/NerdWalletOSS/shepherd/tree/master/examples/lodash
+- https://github.com/NerdWalletOSS/shepherd/tree/master/examples/react-16
